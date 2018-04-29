@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">爱视频</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_video">电影</string>
+    <string name="title_activity_dm">动漫</string>
+    <string name="title_activity_tv">电视剧</string>
+    <string name="title_activity_zy">综艺</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_video_info">视频详情</string>
+
+    <string name="title_activity_search">搜索</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tag_cloud">TagCloudActivity</string>
+</resources>

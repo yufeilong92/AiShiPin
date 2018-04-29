@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_jx_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:id="@+id/item_jx_img1"
+                   android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/defaultbackground"/>
+                <TextView
+                    android:id="@+id/item_jx_update_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#fff"
+                    android:background="#4000"
+                    android:layout_margin="5dp"
+                    android:text="更新至XX集"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_jx_title1"
+                style="@style/item_jx_text_style"
+                android:text="标题"/>
+
+            <TextView
+                android:id="@+id/item_jx_title11"
+                style="@style/item_jx_sub_text_style"
+                android:text="子标题"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:id="@+id/item_jx_img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/defaultbackground"/>
+                <TextView
+                    android:id="@+id/item_jx_update_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#fff"
+                    android:background="#4000"
+                    android:layout_margin="5dp"
+                    android:text="更新至XX集"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/item_jx_title2"
+                style="@style/item_jx_text_style"
+                android:text="标题"/>
+
+            <TextView
+                android:id="@+id/item_jx_title22"
+                style="@style/item_jx_sub_text_style"
+                android:text="子标题"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:id="@+id/item_jx_img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="400dp"
+                    android:src="@mipmap/defaultbackground"/>
+                <TextView
+                    android:id="@+id/item_jx_update_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#fff"
+                    android:background="#4000"
+                    android:layout_margin="5dp"
+                    android:text="更新至XX集"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_jx_title3"
+                style="@style/item_jx_text_style"
+                android:text="标题"/>
+
+            <TextView
+                android:id="@+id/item_jx_title33"
+                style="@style/item_jx_sub_text_style"
+                android:text="子标题"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:id="@+id/item_jx_img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/defaultbackground"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/item_jx_update_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#fff"
+                    android:background="#4000"
+                    android:layout_margin="5dp"
+                    android:text="更新至XX集"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/item_jx_title4"
+                style="@style/item_jx_text_style"
+                android:text="标题"/>
+
+            <TextView
+                android:id="@+id/item_jx_title44"
+                style="@style/item_jx_sub_text_style"
+                android:text="子标题"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp">
+                <ImageView
+                    android:id="@+id/item_jx_img5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/defaultbackground"/>
+                <TextView
+                    android:id="@+id/item_jx_update_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#fff"
+                    android:background="#4000"
+                    android:layout_margin="5dp"
+                    android:text="更新至XX集"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/item_jx_title5"
+                style="@style/item_jx_text_style"
+                android:text="标题"/>
+
+            <TextView
+                android:id="@+id/item_jx_title55"
+                style="@style/item_jx_sub_text_style"
+                android:text="子标题"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+</LinearLayout>
